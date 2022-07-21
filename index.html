@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title></title>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="img/logo.png" alt="logo">
+
+  </div>
+  <h1>Društvena mreža namjenjena etičkim H4K3R1M4</h1>
+
+  <div class="main-wrapper">
+    <form id="loginForm">
+      <h2>Login</h2>
+
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" id="login_email" placeholder="ivan.horvat@mail.com">
+      </div>
+
+      <div>
+        <label>Lozinka</label>
+        <input type="password" name="lozinka" id="login_lozinka" placeholder="******">
+      </div>
+
+      <div>
+        <button>Ulogiraj se</button>
+      </div>
+
+    </form>
+
+  </div>
+
+  <div class="no-acc-register">
+    <p>Nemaš račun?</p>
+    <button id="registracija">Registriraj se!</button>
+  </div>
+
+  <div class="custom-modal">
+    <button id="closeModal">X</button>
+
+    <form id="registrationForm">
+      <h2>Registracija korisnika</h2>
+
+      <div>
+        <label for="korisnicko_ime">Korisničko ime: *</label>
+        <input type="text" name="korisnicko_ime" id="korisnicko_ime" placeholder="ivan.horvat1">
+      </div>
+
+      <div>
+        <label for="email">Email adresa: *</label>
+        <input type="text" name="register_email" id="email" placeholder="ivan.horvat@mail.com">
+      </div>
+
+      <div>
+        <label for="lozinka">Lozinka: *</label>
+        <input type="password" name="register_lozinka" id="lozinka" placeholder="******">
+      </div>
+
+      <div>
+        <label for="ponovi_lozinku">Ponovi lozinku: *</label>
+        <input type="password" name="ponovi_lozinku" id="ponovi_lozinku" placeholder="******">
+      </div>
+
+      <div>
+        <button>Registriraj se</button>
+      </div>
+
+
+    </form>
+  </div>
+<script src="js/Validator.js" charset="utf-8"></script>
+<script src="js/Session.js" charset="utf-8"></script>
+<script src="js/User.js" charset="utf-8"></script>
+<script src="js/app.js" charset="utf-8"></script>
+</body>
+
+</html>
